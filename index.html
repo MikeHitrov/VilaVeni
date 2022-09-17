@@ -1,599 +1,1099 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Къща за гости Вени</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Къща за гости Вени</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <!-- Favicons
+    <!-- Favicons
     ================================================== -->
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="img/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="img/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
 
-  <!-- Bootstrap -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fonts/font-awesome/css/font-awesome.css"
+    />
 
-  <!-- Stylesheet
+    <!-- Stylesheet
     ================================================== -->
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
-  <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/nivo-lightbox/nivo-lightbox.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/nivo-lightbox/default.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-  <!-- Navigation
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Navigation
     ==========================================-->
-  <nav id="menu" class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-          data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span
-            class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        <a class="navbar-brand page-scroll" href="#page-top">Къща за гости Вени</a> </div>
+    <nav id="menu" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span> <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand page-scroll" href="#page-top"
+            >Къща за гости Вени</a
+          >
+        </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#about" class="page-scroll">Информация</a></li>
-          <li><a href="#portfolio" class="page-scroll">Галерия</a></li>
-          <li><a href="#prices" class="page-scroll">Цени</a></li>
-          <li><a href="#call-reservation" class="page-scroll">Контакти</a></li>
-        </ul>
-      </div>
-      <!-- /.navbar-collapse -->
-    </div>
-  </nav>
-  <!-- Header -->
-  <header id="header">
-    <div class="intro">
-      <div class="overlay">
-        <div class="container">
-          <div class="row">
-            <div class="intro-text">
-              <h1 style="font-size: 13rem">Къща за гости Вени</h1>
-              <p>Прекрасно място за почивка в Троянския балкан</p>
-              <a href="#about" class="btn btn-custom btn-lg page-scroll">Виж повече</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- About Section -->
-  <div id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-6 ">
-          <div class="about-img"><img src="img/about.jpg" class="img-responsive" alt="" style="padding-top: 12rem;">
-          </div>
-        </div>
-        <div class="col-xs-12 col-md-6">
-          <div class="about-text">
-            <h2>Информация за къщата</h2>
-            <hr>
-            <p>Къща за гости Вени сe намира в село Шипково в полите на Троянския балкан. Красивата природа около нея и
-              известните минерални извори в селото ви гарантират една прекрасна почивка. Съвременните удобства, които ви
-              предлагаме съчетани с големия озеленен двор, басейн с шезлонги, детски кът с атракциони и билярдна маса ще
-              направят цялото ви семейство щастливо.
-            </p>
-            <p>Вилата разполага с 40 местна столова с камина, бар, музикална уредба, цифрова телевизия и напълно
-              обзаведена кухня по всички изисквания за санитарен контрол.
-              На външното барбекю може да си приготвите специалитети и скара по ваш вкус.
-              Вилата разполага с 28 места за нощувка - всяка стая е със санитарен възел, TV и локално парно.
-            </p>
-            <p>На ваше разположение е и паркинг в единия двор на къщата. </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Portfolio Section -->
-  <div id="portfolio">
-    <div class="section-title text-center center">
-      <div class="overlay">
-        <h2>Галерия</h2>
-        <hr>
-        <p>Всички снимки събрани на едно място.</p>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="categories">
-          <ul class="cat">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about" class="page-scroll">Информация</a></li>
+            <li><a href="#portfolio" class="page-scroll">Галерия</a></li>
+            <li><a href="#prices" class="page-scroll">Цени</a></li>
             <li>
-              <ol class="type">
-                <li><a href="#" data-filter="*" class="active">Всички</a></li>
-                <li><a href="#" data-filter=".breakfast">Кухня и всекидневна</a></li>
-                <li><a href="#" data-filter=".lunch">Спални</a></li>
-                <li><a href="#" data-filter=".dinner">Градина</a></li>
-              </ol>
+              <a href="#call-reservation" class="page-scroll">Контакти</a>
             </li>
           </ul>
-          <div class="clearfix"></div>
         </div>
+        <!-- /.navbar-collapse -->
       </div>
-      <div class="row">
-        <div class="portfolio-items">
-          <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/01-large.jpg" title="Градина"
-                  data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Градина</h4>
-                  </div>
-                  <img src="img/portfolio/01-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/02-large.jpg" title="Градина"
-                  data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Градина</h4>
-                  </div>
-                  <img src="img/portfolio/02-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/03-large.jpg" title="Градина"
-                  data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Градина</h4>
-                  </div>
-                  <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/04-large.jpg" title="Градина"
-                  data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Градина</h4>
-                  </div>
-                  <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/05-large.jpg" title="Градина"
-                  data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Градина</h4>
-                  </div>
-                  <img src="img/portfolio/05-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/06-large.jpg" title="Градина"
-                  data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Градина</h4>
-                  </div>
-                  <img src="img/portfolio/06-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Градина"
-                  data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Градина</h4>
-                  </div>
-                  <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Спални"
-                  data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Спални</h4>
-                  </div>
-                  <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/09-large.jpg" title="Спални"
-                  data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Спални</h4>
-                  </div>
-                  <img src="img/portfolio/09-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/10-large.jpg" title="Спални"
-                  data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Спални</h4>
-                  </div>
-                  <img src="img/portfolio/10-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/11-large.jpg" title="Спални"
-                  data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Спални</h4>
-                  </div>
-                  <img src="img/portfolio/11-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/12-large.jpg" title="Спални"
-                  data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Спални</h4>
-                  </div>
-                  <img src="img/portfolio/12-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/13-large.jpg" title="Спални"
-                  data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Спални</h4>
-                  </div>
-                  <img src="img/portfolio/13-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/14-large.jpg" title="Спални"
-                  data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Спални</h4>
-                  </div>
-                  <img src="img/portfolio/14-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/15-large.jpg" title="Кухня"
-                  data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Кухня</h4>
-                  </div>
-                  <img src="img/portfolio/15-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/16-large.jpg" title="Кухня"
-                  data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Кухня</h4>
-                  </div>
-                  <img src="img/portfolio/16-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/17-large.jpg" title="Кухня"
-                  data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Кухня</h4>
-                  </div>
-                  <img src="img/portfolio/17-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-            <div class="portfolio-item">
-              <div class="hover-bg"> <a href="img/portfolio/18-large.jpg" title="Всекидневна"
-                  data-lightbox-gallery="gallery1">
-                  <div class="hover-text">
-                    <h4>Всекидневна</h4>
-                  </div>
-                  <img src="img/portfolio/18-small.jpg" class="img-responsive" alt="Project Title">
-                </a> </div>
+    </nav>
+    <!-- Header -->
+    <header id="header">
+      <div class="intro">
+        <div class="overlay">
+          <div class="container">
+            <div class="row">
+              <div class="intro-text">
+                <h1 style="font-size: 13rem">Къща за гости Вени</h1>
+                <p>Прекрасно място за почивка в Троянския балкан</p>
+                <a href="#about" class="btn btn-custom btn-lg page-scroll"
+                  >Виж повече</a
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <!-- Prices Section -->
-  <div id="prices">
-    <h2 class="text-center">
-      Цени
-    </h2>
-    <section class="pricing py-5">
+    </header>
+    <!-- About Section -->
+    <div id="about">
       <div class="container">
         <div class="row">
-          <!-- Free Tier -->
-          <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body">
-                <h3 class="text-muted text-uppercase text-center">1 нощувка - двойна стая</h3>
-                <h6 class="card-price text-center">40 лева<span class="period"></span></h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Нощувка</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Курортна такса</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Туристическа такса</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>WIFI</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Цифрова телевизия</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Напълно обвзаведена кухня с всичко необходимо за бита</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Барбекю (дървени въглища от гостите на къщата) и електрическа скара</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Локално парно</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Паркинг</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Сглобяем басейн (летен период) с шезлонг и чадър</li>
-                  <li><span class="fa-li"><i class="fas fa-times"></i></span>Домашни любимци не се допускат</li>
-                </ul>
-              </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="about-img">
+              <img
+                src="img/about.jpg"
+                class="img-responsive"
+                alt=""
+                style="padding-top: 12rem"
+              />
             </div>
           </div>
-          <!-- Plus Tier -->
-          <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body">
-                <h3 class="text-muted text-uppercase text-center">2 нощувки - двойна стая</h3>
-                <h6 class="card-price text-center">80 лева<span class="period"></span></h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Нощувка</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Курортна такса</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Туристическа такса</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>WIFI</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Цифрова телевизия</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Напълно обвзаведена кухня с всичко необходимо за бита</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Барбекю (дървени въглища от гостите на къщата) и електрическа скара</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Локално парно</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Паркинг</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Сглобяем басейн (летен период) с шезлонг и чадър</li>
-                  <li><span class="fa-li"><i class="fas fa-times"></i></span>Домашни любимци не се допускат</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Pro Tier -->
-          <div class="col-lg-4">
-            <div class="card">
-              <div class="card-body">
-                <h3 class="text-muted text-uppercase text-center">3 нощувки - двойна стая</h3>
-                <h6 class="card-price text-center">105 лева<span class="period"></span></h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Нощувка</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Курортна такса</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Туристическа такса</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>WIFI</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Цифрова телевизия</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Напълно обвзаведена кухня с всичко необходимо за бита</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Барбекю (дървени въглища от гостите на къщата) и електрическа скара</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Локално парно</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Паркинг</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Сглобяем басейн (летен период) с шезлонг и чадър</li>
-                  <li><span class="fa-li"><i class="fas fa-times"></i></span>Домашни любимци не се допускат</li>
-                </ul>
-              </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="about-text">
+              <h2>Информация за къщата</h2>
+              <hr />
+              <p>
+                Къща за гости Вени сe намира в село Шипково в полите на
+                Троянския балкан. Красивата природа около нея и известните
+                минерални извори в селото ви гарантират една прекрасна почивка.
+                Съвременните удобства, които ви предлагаме съчетани с големия
+                озеленен двор, басейн с шезлонги, детски кът с атракциони и
+                билярдна маса ще направят цялото ви семейство щастливо.
+              </p>
+              <p>
+                Вилата разполага с камина, бар, музикална уредба, цифрова
+                телевизия и напълно обзаведена кухня по всички изисквания за
+                санитарен контрол. На външното барбекю може да си приготвите
+                специалитети и скара по ваш вкус. Всяка стая е със санитарен
+                възел, TV и локално парно.
+              </p>
+              <p>На ваше разположение е и паркинг в единия двор на къщата.</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section class="pricing py-5">
+    </div>
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+      <div class="section-title text-center center">
+        <div class="overlay">
+          <h2>Галерия</h2>
+          <hr />
+          <p>Всички снимки събрани на едно място.</p>
+        </div>
+      </div>
       <div class="container">
         <div class="row">
-          <!-- Free Tier -->
-          <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body">
-                <h3 class="text-muted text-uppercase text-center">1 нощувка - семейна стая</h3>
-                <h6 class="card-price text-center">55 лева<span class="period"></span></h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Нощувка</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Дойно канапе за деца</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Курортна такса</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Туристическа такса</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>WIFI</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Цифрова телевизия</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Напълно обвзаведена кухня с всичко необходимо за бита</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Барбекю (дървени въглища от гостите на къщата) и електрическа скара</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Локално парно</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Паркинг</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Сглобяем басейн (летен период) с шезлонг и чадър</li>
-                  <li><span class="fa-li"><i class="fas fa-times"></i></span>Домашни любимци не се допускат</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Plus Tier -->
-          <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body">
-                <h3 class="text-muted text-uppercase text-center">2 нощувки - семейна стая</h3>
-                <h6 class="card-price text-center">110 лева<span class="period"></span></h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Нощувка</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Дойно канапе за деца</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Курортна такса</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Туристическа такса</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>WIFI</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Цифрова телевизия</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Напълно обвзаведена кухня с всичко необходимо за бита</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Барбекю (дървени въглища от гостите на къщата) и електрическа скара</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Локално парно</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Паркинг</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Сглобяем басейн (летен период) с шезлонг и чадър</li>
-                  <li><span class="fa-li"><i class="fas fa-times"></i></span>Домашни любимци не се допускат</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Pro Tier -->
-          <div class="col-lg-4">
-            <div class="card">
-              <div class="card-body">
-                <h3 class="text-muted text-center">3 нощувки - семейна стая</h3>
-                <h6 class="card-price text-center">135 лева<span class="period"></span></h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Нощувка</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Дойно канапе за деца</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Курортна такса</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Туристическа такса</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>WIFI</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Цифрова телевизия</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Напълно обвзаведена кухня с всичко необходимо за бита</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Барбекю (дървени въглища от гостите на къщата) и електрическа скара</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Локално парно</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Паркинг</li>
-                  <li><span class="fa-li"><i class="fas fa-check"></i></span>Сглобяем басейн (летен период) с шезлонг и чадър</li>
-                  <li><span class="fa-li"><i class="fas fa-times"></i></span>Домашни любимци не се допускат</li>
-                </ul>
-              </div>
-            </div>
+          <div class="categories">
+            <ul class="cat">
+              <li>
+                <ol class="type">
+                  <li><a href="#" data-filter="*" class="active">Всички</a></li>
+                  <li>
+                    <a href="#" data-filter=".kitchen">Кухня и всекидневна</a>
+                  </li>
+                  <li><a href="#" data-filter=".bedroom">Спални</a></li>
+                  <li><a href="#" data-filter=".garden">Градина</a></li>
+                </ol>
+              </li>
+            </ul>
+            <div class="clearfix"></div>
           </div>
         </div>
-      </div>
-    </section>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-6 ">
-          <div class="about-img"><img src="img/about.jpg" class="img-responsive" alt="" style="padding-top: 12rem;">
-          </div>
-        </div>
-        <div class="col-xs-12 col-md-6">
-          <div class="about-text">
-            <h2>Информация за резервации</h2>
-            <hr>
-            <p>Къща за госи "Вени" разполага с двойни и семейни стаи.</p>
-            <p>Посочените по-горе цени важат за летния период. За наемането на цялата къща - цена по договаряне!</p>
-            <p>Зимен период (Септември - Май) - къщата се дава под наем при минимум 2 нощувки, при капацитет от 20 души - цена за вечер 400 лева.</p>
-            <p>За групи от 10 до 28 души и т.н., звъннете на посочения номер или използвайте контактната форма за оферта.</p>
-            <p>За тържества и празници къщата се отдава под наем по договаряне. По желание на гостите могат да се приготвят печени агънца, местни специалитети и друга храна по предварителна заявка.</p>
-            <p>Посочените цени не важат за официалните празници.</p>
-            <strong><h3>Настаняване след 14:00 часа</h3></strong>
-            <strong><h3>Освобождаване до 11:00 часа</h3></strong>
+        <div class="row">
+          <div class="portfolio-items">
+            <div class="col-sm-6 col-md-4 col-lg-4 garden">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/01-large.jpg"
+                    title="Градина"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Градина</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/01-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 garden">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/02-large.jpg"
+                    title="Градина"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Градина</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/02-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 garden">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/03-large.jpg"
+                    title="Градина"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Градина</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/03-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 garden">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/04-large.jpg"
+                    title="Градина"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Градина</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/04-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 garden">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/05-large.jpg"
+                    title="Градина"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Градина</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/05-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 garden">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/06-large.jpg"
+                    title="Градина"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Градина</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/06-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 garden">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/07-large.jpg"
+                    title="Градина"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Градина</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/07-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 bedroom">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/08-large.jpg"
+                    title="Спални"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Спални</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/08-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 bedroom">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/09-large.jpg"
+                    title="Спални"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Спални</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/09-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 bedroom">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/10-large.jpg"
+                    title="Спални"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Спални</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/10-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 bedroom">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/11-large.jpg"
+                    title="Спални"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Спални</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/11-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 bedroom">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/12-large.jpg"
+                    title="Спални"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Спални</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/12-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 bedroom">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/13-large.jpg"
+                    title="Спални"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Спални</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/13-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 bedroom">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/14-large.jpg"
+                    title="Спални"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Спални</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/14-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 kitchen">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/15-large.jpg"
+                    title="Кухня"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Кухня</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/15-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 kitchen">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/16-large.jpg"
+                    title="Кухня"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Кухня</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/16-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 kitchen">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/17-large.jpg"
+                    title="Кухня"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Кухня</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/17-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 kitchen">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a
+                    href="img/portfolio/18-large.jpg"
+                    title="Всекидневна"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div class="hover-text">
+                      <h4>Всекидневна</h4>
+                    </div>
+                    <img
+                      src="img/portfolio/18-small.jpg"
+                      class="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Call Reservation Section -->
-
-          
-  
-  <div id="call-reservation" class="text-center">
-    <div class="container">
-      <br>
-      <h2>Искате да резервирате? Обадете се на <strong>0886551111</strong></h2>
-    </div>
-  </div>
-  <!-- Contact Section -->
-  <div id="contact" class="text-center">
-    <div class="container">
-      <div class="section-title text-center">
-        <h2>Свържете се с нас</h2>
-        <hr>
-        <p>Ако имате въпроси можете да се допитате до нас.</p>
-      </div>
-      <div class="col-md-10 col-md-offset-1">
-        <form name="sentMessage" id="contactForm" novalidate>
-          <input type="hidden" name="contact_number">
+    <!-- Prices Section -->
+    <div id="prices">
+      <h2 class="text-center">Цени</h2>
+      <section class="pricing py-5">
+        <div class="container">
           <div class="row">
-            <div class="col-md-6">
-              <div class="form-group">
-                <input type="text" id="name" class="form-control" placeholder="Име" required="required">
-                <p class="help-block text-danger"></p>
+            <!-- Free Tier -->
+            <div class="col-lg-4">
+              <div class="card mb-5 mb-lg-0">
+                <div class="card-body">
+                  <h3 class="text-muted text-uppercase text-center">
+                    1 нощувка - двойна стая
+                  </h3>
+                  <h6 class="card-price text-center">
+                    40 лева<span class="period"></span>
+                  </h6>
+                  <hr />
+                  <ul class="fa-ul">
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Нощувка
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Курортна такса
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Туристическа такса
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >WIFI
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Цифрова телевизия
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Напълно обвзаведена кухня с всичко необходимо за бита
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Барбекю (дървени въглища от гостите на къщата) и
+                      електрическа скара
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Локално парно
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Паркинг
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Сглобяем басейн (летен период) с шезлонг и чадър
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-times"></i></span
+                      >Домашни любимци не се допускат
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="form-group">
-                <input type="email" id="email" class="form-control" placeholder="Имейл" required="required">
-                <p class="help-block text-danger"></p>
+            <!-- Plus Tier -->
+            <div class="col-lg-4">
+              <div class="card mb-5 mb-lg-0">
+                <div class="card-body">
+                  <h3 class="text-muted text-uppercase text-center">
+                    2 нощувки - двойна стая
+                  </h3>
+                  <h6 class="card-price text-center">
+                    80 лева<span class="period"></span>
+                  </h6>
+                  <hr />
+                  <ul class="fa-ul">
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Нощувка
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Курортна такса
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Туристическа такса
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >WIFI
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Цифрова телевизия
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Напълно обвзаведена кухня с всичко необходимо за бита
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Барбекю (дървени въглища от гостите на къщата) и
+                      електрическа скара
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Локално парно
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Паркинг
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Сглобяем басейн (летен период) с шезлонг и чадър
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-times"></i></span
+                      >Домашни любимци не се допускат
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Pro Tier -->
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="text-muted text-uppercase text-center">
+                    3 нощувки - двойна стая
+                  </h3>
+                  <h6 class="card-price text-center">
+                    105 лева<span class="period"></span>
+                  </h6>
+                  <hr />
+                  <ul class="fa-ul">
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Нощувка
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Курортна такса
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Туристическа такса
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >WIFI
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Цифрова телевизия
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Напълно обвзаведена кухня с всичко необходимо за бита
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Барбекю (дървени въглища от гостите на къщата) и
+                      електрическа скара
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Локално парно
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Паркинг
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Сглобяем басейн (летен период) с шезлонг и чадър
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-times"></i></span
+                      >Домашни любимци не се допускат
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-          <div class="form-group">
-            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Съобщение"
-              required></textarea>
-            <p class="help-block text-danger"></p>
+        </div>
+      </section>
+      <section class="pricing py-5">
+        <div class="container">
+          <div class="row">
+            <!-- Free Tier -->
+            <div class="col-lg-4">
+              <div class="card mb-5 mb-lg-0">
+                <div class="card-body">
+                  <h3 class="text-muted text-uppercase text-center">
+                    1 нощувка - семейна стая
+                  </h3>
+                  <h6 class="card-price text-center">
+                    55 лева<span class="period"></span>
+                  </h6>
+                  <hr />
+                  <ul class="fa-ul">
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Нощувка
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Дойно канапе за деца
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Курортна такса
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Туристическа такса
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >WIFI
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Цифрова телевизия
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Напълно обвзаведена кухня с всичко необходимо за бита
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Барбекю (дървени въглища от гостите на къщата) и
+                      електрическа скара
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Локално парно
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Паркинг
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Сглобяем басейн (летен период) с шезлонг и чадър
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-times"></i></span
+                      >Домашни любимци не се допускат
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Plus Tier -->
+            <div class="col-lg-4">
+              <div class="card mb-5 mb-lg-0">
+                <div class="card-body">
+                  <h3 class="text-muted text-uppercase text-center">
+                    2 нощувки - семейна стая
+                  </h3>
+                  <h6 class="card-price text-center">
+                    110 лева<span class="period"></span>
+                  </h6>
+                  <hr />
+                  <ul class="fa-ul">
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Нощувка
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Дойно канапе за деца
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Курортна такса
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Туристическа такса
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >WIFI
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Цифрова телевизия
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Напълно обвзаведена кухня с всичко необходимо за бита
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Барбекю (дървени въглища от гостите на къщата) и
+                      електрическа скара
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Локално парно
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Паркинг
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Сглобяем басейн (летен период) с шезлонг и чадър
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-times"></i></span
+                      >Домашни любимци не се допускат
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Pro Tier -->
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="text-muted text-center">
+                    3 нощувки - семейна стая
+                  </h3>
+                  <h6 class="card-price text-center">
+                    135 лева<span class="period"></span>
+                  </h6>
+                  <hr />
+                  <ul class="fa-ul">
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Нощувка
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Дойно канапе за деца
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Курортна такса
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Туристическа такса
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >WIFI
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Цифрова телевизия
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Напълно обвзаведена кухня с всичко необходимо за бита
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Барбекю (дървени въглища от гостите на къщата) и
+                      електрическа скара
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Локално парно
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Паркинг
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-check"></i></span
+                      >Сглобяем басейн (летен период) с шезлонг и чадър
+                    </li>
+                    <li>
+                      <span class="fa-li"><i class="fas fa-times"></i></span
+                      >Домашни любимци не се допускат
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
-          <div id="success"></div>
-          <button type="submit" id="formSubmit" class="btn btn-custom btn-lg">Изпрати</button>
-        </form>
-      </div>
-    </div>
-  </div>
-  <div id="footer">
-    <div class="container text-center">
-      <div class="col-md-6">
-        <h3>Адрес</h3>
-        <div class="contact-item">
-          <p>село Шипково</p>
-          <p>Вилна зона</p>
+        </div>
+      </section>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <div class="about-img">
+              <img
+                src="img/about.jpg"
+                class="img-responsive"
+                alt=""
+                style="padding-top: 12rem"
+              />
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="about-text">
+              <h2>Информация за резервации</h2>
+              <hr />
+              <p>Къща за госи "Вени" разполага с двойни и семейни стаи.</p>
+              <p>
+                Посочените по-горе цени важат за летния период. За наемането на
+                цялата къща - цена по договаряне!
+              </p>
+              <p>
+                Зимен период (Септември - Май) - къщата се дава под наем при
+                минимум 2 нощувки, при капацитет от 20 души - цена за вечер 400
+                лева.
+              </p>
+              <p>
+                За групи от 10 до 28 души и т.н., звъннете на посочения номер
+                или използвайте контактната форма за оферта.
+              </p>
+              <p>
+                За тържества и празници къщата се отдава под наем по договаряне.
+                По желание на гостите могат да се приготвят печени агънца,
+                местни специалитети и друга храна по предварителна заявка.
+              </p>
+              <p>Посочените цени не важат за официалните празници.</p>
+              <strong><h3>Настаняване след 14:00 часа</h3></strong>
+              <strong><h3>Освобождаване до 11:00 часа</h3></strong>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-md-6">
-        <h3>Контакти</h3>
-        <div class="contact-item">
-          <p>Телефон: 0886 55 11 11</p>
-          <p>Имейл: veni.troyan@gmail.com</p>
-        </div>
-      </div>
     </div>
-    <div class="container-fluid text-center copyrights">
-      <div class="col-md-8 col-md-offset-2">
-        <p>&copy; 2020 Вени. Всички права запазени. Изработено от <a href="https://www.facebook.com/Hitrov.Mihail"
-            rel="nofollow">Михаил Хитров</a></p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
-  <script type="text/javascript" src="js/SmoothScroll.js"></script>
-  <script type="text/javascript" src="js/nivo-lightbox.js"></script>
-  <script type="text/javascript" src="js/jquery.isotope.js"></script>
-  <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-  <script type="text/javascript" src="js/notify.js"></script>
-  <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
-  <script type="text/javascript">
-    (function () {
-      emailjs.init("user_5RVnAQiYpSgrQB8xwwqWK");
-    })();
-  </script>
-  <script type="text/javascript" src="js/contact_me.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
-</body>
+    <!-- Call Reservation Section -->
 
+    <div id="call-reservation" class="text-center">
+      <div class="container">
+        <br />
+        <h2>
+          Искате да резервирате? Обадете се на <strong>0886551111</strong>
+        </h2>
+      </div>
+    </div>
+    <!-- Contact Section -->
+    <div id="contact" class="text-center">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>Свържете се с нас</h2>
+          <hr />
+          <p>Ако имате въпроси можете да се допитате до нас.</p>
+        </div>
+        <div class="col-md-10 col-md-offset-1">
+          <form name="sentMessage" id="contactForm" novalidate>
+            <input type="hidden" name="contact_number" />
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    id="name"
+                    class="form-control"
+                    placeholder="Име"
+                    required="required"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input
+                    type="email"
+                    id="email"
+                    class="form-control"
+                    placeholder="Имейл"
+                    required="required"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea
+                name="message"
+                id="message"
+                class="form-control"
+                rows="4"
+                placeholder="Съобщение"
+                required
+              ></textarea>
+              <p class="help-block text-danger"></p>
+            </div>
+            <div id="success"></div>
+            <button type="submit" id="formSubmit" class="btn btn-custom btn-lg">
+              Изпрати
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="container text-center">
+        <div class="col-md-6">
+          <h3>Адрес</h3>
+          <div class="contact-item">
+            <p>село Шипково</p>
+            <p>Вилна зона</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h3>Контакти</h3>
+          <div class="contact-item">
+            <p>Телефон: 0886 55 11 11</p>
+            <p>Имейл: veni.troyan@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid text-center copyrights">
+        <div class="col-md-8 col-md-offset-2">
+          <p>
+            &copy; 2020 Вени. Всички права запазени. Изработено от
+            <a href="https://www.facebook.com/Hitrov.Mihail" rel="nofollow"
+              >Михаил Хитров</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="js/nivo-lightbox.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.js"></script>
+    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+    <script type="text/javascript" src="js/notify.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_5RVnAQiYpSgrQB8xwwqWK");
+      })();
+    </script>
+    <script type="text/javascript" src="js/contact_me.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
 </html>
